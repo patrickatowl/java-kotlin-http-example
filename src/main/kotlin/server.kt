@@ -10,7 +10,7 @@ fun main(args: Array<String>) {
   val hostname = ip.getHostName()
 
   server.get("/", {
-    response.send("HTTP request processed by " + hostname) 
+    response.send("Owlting HTTP request processed by " + hostname) 
   })
 
   server.get("/machine", {
